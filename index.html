@@ -189,23 +189,23 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-6 mb-4 contact-form">
                             <div class="form tm-contact-item-inner">
-                                <form name="index.html" method="POST" data-netlify="true">
-                                    <input type="hidden" name="form-name" value="index.html">
+                                <form name="contact-form" method="POST" data-netlify="true">
+                                    <input type="hidden" name="form-name" value="contact-form">
                                     <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Nome">
+                                        <input name="name" type="text" class="form-control" placeholder="Nome" required>
                                     </div>
                                     <div class="form-group">
-                                        <input name="email" type="text" class="form-control" placeholder="Email">
+                                        <input name="email" type="email" class="form-control" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="message" class="textarea form-control" placeholder="Messagem"></textarea>
+                                        <textarea name="message" class="textarea form-control" placeholder="Messagem" required></textarea>
                                     </div>
                                     <div class="form-group text-right">
                                         <input type="submit" class="btn btn-primary" value="Enviar">
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="col-lg-4 col-md-6 mb-4 contact-details">
                             <div class="tm-contact-item-inner-2">
                                 <p>Se você deseja se comunicar comigo, basta preencher o formulário ao lado. Estou ansioso para ouvir suas mensagens!</p>
@@ -252,5 +252,3 @@
     <script src="js/slick.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/templatemo-script.js"></script>
-</body>
-</html>
