@@ -1123,3 +1123,15 @@ figure.effect-julia:hover p {
 
   .contact-details { margin-bottom: 50px!important; }
 }
+
+.whatsapp-icon {
+  position: fixed; /* Mantém o ícone fixo na tela */
+  bottom: 20px; /* Distância do fundo da tela */
+  right: 20px; /* Distância da lateral direita */
+  z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+}
+
+.whatsapp-icon img {
+  width: 60px; /* Tamanho do ícone */
+  height: 60px; /* Tamanho do ícone */
+}
